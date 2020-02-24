@@ -14,6 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     renderUser(user)
                 })
             })
+        event.target.reset()
     })
 
     function renderUser(user) {
