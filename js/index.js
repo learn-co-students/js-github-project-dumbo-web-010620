@@ -6,8 +6,10 @@ document.addEventListener("DOMContentLoaded", () => {
     // user-list
     const userList = document.getElementById("user-list")
 
+    // form eventlistener for submitting
     searchForm.addEventListener("submit", event => {
         event.preventDefault()
+        // matches what is searched
         const search = event.target.search.value
         
         // fetch the api
@@ -41,3 +43,4 @@ document.addEventListener("DOMContentLoaded", () => {
         userList.append(newLi)
     }
 })
+
