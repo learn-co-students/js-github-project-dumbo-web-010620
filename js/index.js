@@ -17,11 +17,6 @@ document.addEventListener("DOMContentLoaded", () => {
         e.target.reset
     })
 
-
-
-
-
-
     function renderUser(user) {
         const newLi = document.createElement("li")
         newLi.innerHTML = `
